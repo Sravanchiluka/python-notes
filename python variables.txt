@@ -1,0 +1,37 @@
+#day1 of python
+python is a high level programming language
+python has indentation concept i.e the space of beginning of a line
+comments can be used to explain the code,makes the code more readable and prevents the execution when testing the code
+comments are created by using #-"yash"
+
+#PYTHON VARIABLES
+variables are used to store the data
+python has no commands to declare the variables
+variable is created when you assign value to it
+ex:x=1
+variables doesn't need to be decalred with particular data type,even they can change datatype after declaring
+we can assign value to multiple variables in a single line
+ex:x,y,z="orange","banana","apple"
+we can assign same value to multiple variables in single line
+ex:x,y,z="grapes"
+print() function is used to produce output for variables
+variables that are created outside the function is known as global variables
+to  create global variable inside the function we can use "global" keyword
+
+#RULES FOR PYTHON VARIABLES
+variables must start with a letter or an underscore character but cannot start with a number
+variables can contain alpha numeric characters and underscore
+variable name cannot be any python keyword
+variable names are case-sensitive
+ex:age,Age and AGE are three different variables
+
+#MULTIWORD VARIBLE NAMES
+CAMEL CASE:
+each word,except the first will start with a capital letter
+ex: myVariableName="sravan"
+PASCAL CASE:
+each word will start with a capital letter
+ex:MyVariableName="sravan"
+SNAKE CASE:
+each word is separated by an underscore character
+ex:my_variable_name="sravan"
