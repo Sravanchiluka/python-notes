@@ -1,0 +1,26 @@
+#CONDITIONAL STATEMENTS IN PYTHON
+-->these statements are used to check whether the given condition is true or false
+1.if statement:
+if condition:
+    statements
+
+2.if else:
+if condition:
+    statements
+else:
+    statements
+
+3.elif:
+if condition1:
+   statements
+elif condition2:
+   statements
+
+4.nested if :
+if condition1:
+   statements
+if condition2:
+   statements
+else:
+   statements
+

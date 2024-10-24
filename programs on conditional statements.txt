@@ -1,0 +1,115 @@
+#programs on conditional statements
+
+1.write a python program to check the given number is even or odd.
+
+a=int(input("enter a number\n"))
+if a%2==0:
+    print("even number")
+else:
+    print("odd number")
+
+output:
+enter a number
+4
+even number
+
+
+2.write a python program to find the largest of two numbers.
+
+a=int(input("enter first number\n"))
+b=int(input("enter second number\n"))
+if a>b:
+    print("the greatest number is:",a)
+elif b>a:
+    print("the greatest number is:",b)
+else:
+    print("both are equal")
+
+output:
+enter first number
+3
+enter second number
+5
+the greatest number is: 5
+
+
+3.write a python program to find the largest of three numbers.
+
+a=int(input("enter first number\n"))
+b=int(input("enter second number\n"))
+c=int(input("enter third number\n"))
+if a>b and a>c:
+    print("the greatest number is:",a)
+elif b>a and b>c:
+    print("the greatest number is:",b)
+elif c>a and c>b:
+    print("the greatest number is:",c)
+else:
+    print("both are equal")
+
+output:
+enter first number
+2
+enter second number
+4
+enter third number
+7
+the greatest number is: 7
+
+
+4.write a python program to read student details such as name, rollno and marks. Calculate the percentage of student and display his grade.
+
+name=input("enter your name:\n")
+roll=int(input("enter your roll no:\n"))
+mat=int(input("enter maths marks\n"))
+sci=int(input("enter science marks\n"))
+tel=int(input("enter telugu marks\n"))
+soc=int(input("enter social marks\n"))
+eng=int(input("enter english marks\n"))
+total_marks=mat+sci+tel+soc+eng
+percentage=(total_marks/500)*100
+if percentage>=75:
+    print("A GRADE")
+elif percentage>60 and percentage<75:
+    print("B GRADE")
+elif percentage>50 and percentage<60:
+    print("C GRADE")
+else:
+    print("FAIL")
+print("Student Name is:",name)
+print("Student Roll Number is:",roll)
+print("Percentage of student is:",percentage)
+
+output:
+enter your name:
+Sravan
+enter your roll no:
+7033
+enter maths marks
+95
+enter science marks
+85
+enter telugu marks
+99
+enter social marks
+75
+enter english marks
+79
+A GRADE
+Student Name is: Sravan
+Student Roll Number is: 7033
+Percentage of student is: 86.6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
