@@ -1,0 +1,25 @@
+#PYTHON DATATYPES
+1.int
+ex:x=5
+2.float
+ex:x=10.2
+3.complex
+ex:x=1i
+4.boolean
+ex:x=TRUE
+5.none
+ex:x=None
+6.sets
+ex:x={"banana","apple","orange"}
+7.string
+ex:x="hello"
+8.list
+ex:x=[1,2,3,4,5]
+9.tuple
+ex:x=("apple","banana","cherry")
+10.dictionary
+ex:x={"fruit":"apple","game":"chess"}
+11.frozenset
+ex:x=frozenset({"apple","banana","cherry"})
+
+we can get the datatype of any object by using type() function

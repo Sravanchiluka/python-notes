@@ -1,0 +1,110 @@
+#OPERATORS IN PYTHON
+1.ARITHMATIC OPERATORS
+a.addition(+)
+->adds two numbers
+b.subtraction(-)
+->subtracts two numbers
+c.multiplication(*)
+->multiplies two numbers
+d.division(/)
+->divides two numbers
+e.modulus(%)
+->gives remainder
+f.exponential(**)
+->gives power of a number
+g.floor division(//)
+->gives nearest value for a decimal number
+
+2.ASSIGNMENT OPERATORS
+a.assignment operator(=)
+b.add assignment operator(+=)
+c.subtract assignment operator(-=)
+d.multiply assignment operator(*=)
+e.division assignment operator(/=)
+f.modulo assignment operator(%=)
+g.exponential assignment operator(**=)
+h.floor division assignment operator(//=)
+i.bitwise and assignment operator(&=)
+j.bitwise or assignment operator(|=)
+k.bitwise not assignment operator(~=)
+l.bitwise exor assignment operator(^=)
+m.left shift assignment operator(<<=)
+n.right shift assignment operator(>>=)
+
+3.LOGICAL OPERATORS
+a.and
+b.or
+c.not
+->all are lowercase letters only
+
+4.COMPARISION OPERATORS
+a.equals to(==)
+b.less than(<)
+c.greater than(>)
+d.greaterthan equals to(>=)
+e.lessthan equals to(<=)
+f.not equals to(!=)
+
+5.BITWISE OPERATORS
+a.logical and(&)
+b.logical or(|)
+c.logical not(~)
+d.exclusive or(^)
+e.leftshift(<<)
+f.rightshift(>>)
+
+6.IDENTITY OPERATORS
+a.is
+b.is not
+->both returns boolean values
+ex:x=10,y=10,z=x
+print(x is y)-->false
+print(x is z)-->true
+print(y is z)-->false
+print(x is not y)-->true
+print(x==y)-->true
+
+7.MEMBERSHIP OPERATORS
+a.in
+b.not in
+->both returns boolean values
+ex:days=["monday","tuesday","wednesday"]
+print("sunday" in days)-->false
+print("sunday" not in days)-->true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
